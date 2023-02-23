@@ -1,0 +1,36 @@
+$mainColor: blue;
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat'), url('../fonts/Montserrat-Bold.woff') format('woff'),
+		url('../fonts/Montserrat-Bold.woff2') format('woff2');
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat'),
+		url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+		url('../fonts/Montserrat-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat'),
+		url('../fonts/Montserrat-Medium.woff') format('woff'),
+		url('../fonts/Montserrat-Medium.woff2') format('woff2');
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'Montserrat';
+	src: local('Montserrat'),
+		url('../fonts/Montserrat-Regular.woff') format('woff'),
+		url('../fonts/Montserrat-Regular.woff2') format('woff2');
+	font-weight: 400;
+}
+body {
+	background-image: url('../img/bg.jpg');
+	font-family: 'Montserrat', 'sans-serif';
+}
+
+h1 {
+	font-weight: 700;
+}
