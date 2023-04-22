@@ -1,35 +1,22 @@
-# TOXIN - hotel booking website
+# Шаблон сборки WebPack для шаблонизатора PUG + SCSS
 
 ---
 
-## Running:
+## Скрипты:
 
-1. Download dependencies:
+1. Скачать пакеты:
 
 ```
 npm install
 ```
 
-2. Start:
-
-in development mode:
+2. Запустить в dev режиме:
 
 ```
 npm run dev
 ```
-
-build project:
+3. Собрать Build версию:
 
 ```
 npm run build
 ```
-
----
-
-## Stack:
-
-- webpack
-- pug
-- SCSS
-
----
